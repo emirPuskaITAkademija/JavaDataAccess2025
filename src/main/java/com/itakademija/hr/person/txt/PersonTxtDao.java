@@ -13,10 +13,16 @@ public class PersonTxtDao implements PersonDao {
 
     public static final String FILE_NAME = "persons.txt";
 
+    private String filename = FILE_NAME;
+
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
+
     @Override
     public List<PersonEntity> readElements() throws DaoException {
         List<PersonEntity> elements = new ArrayList<>();
-        try(BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
+        try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             while((line= br.readLine())!=null) {
 
@@ -44,7 +50,7 @@ public class PersonTxtDao implements PersonDao {
         if (elements == null || elements.isEmpty()) {
             return;
         }
-        try (PrintWriter out = new PrintWriter(new FileWriter(FILE_NAME))) {
+        try (PrintWriter out = new PrintWriter(new FileWriter(filename))) {
             /**
              * Format čuvanja persona
              * name;surname;nin;age
