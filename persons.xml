@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.6" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>23</int>
+    </void>
+    <void property="name">
+     <string>Tarik</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>123</string>
+    </void>
+    <void property="surname">
+     <string>Fejzić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>30</int>
+    </void>
+    <void property="name">
+     <string>Ana</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>456</string>
+    </void>
+    <void property="surname">
+     <string>Kovačević</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>27</int>
+    </void>
+    <void property="name">
+     <string>Marko</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>789</string>
+    </void>
+    <void property="surname">
+     <string>Jovanović</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>25</int>
+    </void>
+    <void property="name">
+     <string>Elma</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>101</string>
+    </void>
+    <void property="surname">
+     <string>Hodžić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>35</int>
+    </void>
+    <void property="name">
+     <string>Ivan</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>202</string>
+    </void>
+    <void property="surname">
+     <string>Milić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>29</int>
+    </void>
+    <void property="name">
+     <string>Sara</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>303</string>
+    </void>
+    <void property="surname">
+     <string>Nikolić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>32</int>
+    </void>
+    <void property="name">
+     <string>Petar</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>404</string>
+    </void>
+    <void property="surname">
+     <string>Radić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>26</int>
+    </void>
+    <void property="name">
+     <string>Lana</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>505</string>
+    </void>
+    <void property="surname">
+     <string>Stojanović</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>31</int>
+    </void>
+    <void property="name">
+     <string>Nemanja</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>606</string>
+    </void>
+    <void property="surname">
+     <string>Marić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.itakademija.hr.person.PersonEntity">
+    <void property="age">
+     <int>28</int>
+    </void>
+    <void property="name">
+     <string>Dino</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>707</string>
+    </void>
+    <void property="surname">
+     <string>Vuković</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
