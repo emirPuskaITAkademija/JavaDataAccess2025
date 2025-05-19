@@ -12,7 +12,11 @@ import java.util.Scanner;
 
 public class DemoMain {
 
+    public static String pass;
+
     public static void main(String[] args) throws DaoException {
+
+        pass = args[0];
         /**
          * Pravimo zavisnost od dogovoreni INTERFEJSA
          */
