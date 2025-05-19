@@ -9,11 +9,11 @@ import java.util.List;
 public class PersonSqlDao implements PersonDao {
     @Override
     public List<PersonEntity> readElements() throws DaoException {
-        return List.of();
+        throw new UnsupportedOperationException("SQL Not supported yet.");
     }
 
     @Override
     public void persistElements(List<PersonEntity> elements) throws DaoException {
-
+        throw new UnsupportedOperationException("SQL Not supported yet.");
     }
 }

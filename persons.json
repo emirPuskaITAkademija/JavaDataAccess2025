@@ -1,62 +1,62 @@
 [
   {
     "nin": "123",
-    "surname": "Fejzić",
     "name": "Tarik",
+    "surname": "Fejzić",
     "age": 23
   },
   {
     "nin": "456",
-    "surname": "Kovačević",
     "name": "Ana",
+    "surname": "Kovačević",
     "age": 30
   },
   {
     "nin": "789",
-    "surname": "Jovanović",
     "name": "Marko",
+    "surname": "Jovanović",
     "age": 27
   },
   {
     "nin": "101",
-    "surname": "Hodžić",
     "name": "Elma",
+    "surname": "Hodžić",
     "age": 25
   },
   {
     "nin": "202",
-    "surname": "Milić",
     "name": "Ivan",
+    "surname": "Milić",
     "age": 35
   },
   {
     "nin": "303",
-    "surname": "Nikolić",
     "name": "Sara",
+    "surname": "Nikolić",
     "age": 29
   },
   {
     "nin": "404",
-    "surname": "Radić",
     "name": "Petar",
+    "surname": "Radić",
     "age": 32
   },
   {
     "nin": "505",
-    "surname": "Stojanović",
     "name": "Lana",
+    "surname": "Stojanović",
     "age": 26
   },
   {
     "nin": "606",
-    "surname": "Marić",
     "name": "Nemanja",
+    "surname": "Marić",
     "age": 31
   },
   {
     "nin": "707",
-    "surname": "Vuković",
     "name": "Dino",
+    "surname": "Vuković",
     "age": 28
   }
 ]

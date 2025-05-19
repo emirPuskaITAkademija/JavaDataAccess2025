@@ -2,7 +2,8 @@ package com.itakademija.hr.person;
 
 import com.itakademija.hr.DaoException;
 import com.itakademija.hr.person.csv.PersonCsvDao;
-import com.itakademija.hr.person.json.PersonJsonDao;
+import com.itakademija.hr.person.json.PersonJsonGsonDao;
+import com.itakademija.hr.person.json.PersonJsonSimpleDao;
 import com.itakademija.hr.person.serializible.PersonSerializableDao;
 import com.itakademija.hr.person.sql.PersonSqlDao;
 import com.itakademija.hr.person.txt.PersonTxtDao;
@@ -12,7 +13,8 @@ import java.util.stream.Stream;
 
 public enum PersonDaoFactory {
     XML(new PersonXmlDao()),
-    JSON(new PersonJsonDao()),
+    JSON_SIMPLE(new PersonJsonSimpleDao()),
+    JSON_GSON(new PersonJsonGsonDao()),
     SER(new PersonSerializableDao()),
     TXT(new PersonTxtDao()),
     SQL(new PersonSqlDao()),

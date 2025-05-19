@@ -1,9 +1,14 @@
 package com.itakademija.hr.person;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 import java.util.StringJoiner;
 
 public class PersonEntity implements Serializable {
+
+    //anotacija iz google GSON biblioteke
+    @SerializedName("nin")
     private String nationalIdentificationNumber;
     private String name;
     private String surname;
